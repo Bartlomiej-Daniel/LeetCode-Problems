@@ -1,0 +1,47 @@
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+
+# ===== Test / tooling cache =====
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Visual Studio solution files
+*.sln
+*.slnx
+*.pyproj
+
+# ===== Logs & misc =====
+*.log
+*.tmp
+
+# ===== Secrets / local config =====
+.env
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+
+
+# ===== Copilot / IDE cache =====
+CopilotIndices/
